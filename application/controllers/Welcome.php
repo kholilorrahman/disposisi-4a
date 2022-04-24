@@ -17,8 +17,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('profile');
 	}
 
-	public function menu()
-	{
-		$this->load->view('template/menu');
-	}
+	
 }
